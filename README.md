@@ -13,4 +13,4 @@ ClickUp has provided api for making our custom integrations. check out this link
 - Run the file katalon-clickup.sh in terminal as 
 
 $ bash katalon-clickup.sh -CLICKUP_API_KEY="YOUR_CLICKUP_API_KEY" -LIST_ID="YOUR_LIST_ID_IN_CLICK_UP" -REPORT_FOLDER_PATH="YOUR_CSV_FILE_PATH"
-# katalon-clickup
+

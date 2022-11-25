@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FullSuite,Firefox 105.0,,,2022-11-25 09:12:51,2022-11-25 09:26:35,13m - 43.686s,FAILED
+,,,,,,,
+Test Cases,Firefox 105.0,Check Status,,2022-11-25 09:14:04,2022-11-25 09:14:37,32.936s,FAILED
+teststepname1,Firefox 105.0,,,2022-11-25 09:14:05,2022-11-25 09:14:05,0.004s,PASSED
+teststepname2,Firefox 105.0,,,2022-11-25 09:14:05,2022-11-25 09:14:10,5.018s,PASSED
+teststepname3,Firefox 105.0,,,2022-11-25 09:14:10,2022-11-25 09:14:12,1.678s,PASSED
+teststepname4,Firefox 105.0,,,2022-11-25 09:14:12,2022-11-25 09:14:37,5.559s,FAILED
+,,,,,,,

@@ -64,4 +64,4 @@ curl -i -X POST \
     "custom_fields": []
   }' 
   fi
-  done < <(awk -F\" 'BEGIN{OFS=FS;} {for(i=1;i<=NF;i=i+2){gsub(/,/,"~",$i);} print $0;}' *.csv)
+  done < <(awk -F\" 'BEGIN{OFS=FS;} {for(i=1;i<=NF;i=i+2){gsub(/,/,"~",$i);} print $0;}' < <(i=0;cat *.csv|while read -r l;do i=$((($(echo $l|tr -cd '"'|wc -c)+$i)%2));[[ $i = 1 ]] && echo -n "$l " || echo "$l";done))
